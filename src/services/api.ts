@@ -1,6 +1,6 @@
 import axios, { AxiosInstance } from 'axios';
 
-const API_URL = (import.meta as any).env.VITE_API_URL || 'http://localhost:8000';
+const API_URL = (import.meta as any).env.VITE_API_URL || 'https://cv-f5ci.onrender.com/';
 
 const api: AxiosInstance = axios.create({
   baseURL: API_URL,
